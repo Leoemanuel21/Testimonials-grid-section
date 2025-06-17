@@ -43,7 +43,7 @@ main{
 section{
     height: 45rem;
     margin: 3rem;
-    padding: 2rem;
+    padding: 3rem;
     border-radius: 1rem;
     display: grid;
 
@@ -74,7 +74,7 @@ h1{
 p{
     font-size: 1.3rem;
     font-weight: 500;
-    padding-top: 2rem;
+    padding-top: 1rem;
     grid-area: 4 / 1 / 5 / 3;
 }
 
