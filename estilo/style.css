@@ -47,7 +47,7 @@ section{
     border-radius: 1rem;
     display: grid;
 
-    grid-template: .3fr .3fr 2.3fr 3fr / .6fr 2fr;
+    grid-template: .3fr .3fr 3fr 3fr / .6fr 2fr;
 }
 
 img{
@@ -102,3 +102,7 @@ p{
     color: var(--Grey500);
 }
 
+footer{
+    text-align: center;
+    text-decoration: none;
+}
