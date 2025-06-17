@@ -3,16 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
-    --Purple50: hsl(260, 100%, 95%);
-    --Purple300: hsl(264, 82%, 80%);
-    --Purple500: hsl(263, 55%, 52%);
-    --White: hsl(0, 0%, 100%);
-    --Grey100: hsl(214, 17%, 92%);
-    --Grey200: hsl(0, 0%, 81%);
-    --Grey400: hsl(224, 10%, 45%);
-    --Grey500: hsl(217, 19%, 35%);
-    --Darkblue: hsl(219, 29%, 14%);
-    --Black: hsl(0, 0%, 7%);
+    --Purple50: #eee5ff;
+    --Purple300: #c4a2f6;
+    --Purple500: #7541c8;
+    --White: #ffffff;
+    --Grey100: #e7eaee;
+    --Grey200: #cfcfcf;
+    --Grey400: #676d7e;
+    --Grey500: #48556a;
+    --Darkblue: #19212e;
+    --Black: #121212;
 
     --fonte-destaque: 'Barlow Semi Condensed' sans-serif;
 }
@@ -27,15 +27,62 @@ html{
     font-size: 1.3rem;
 }
 
-main{
+body{
+    background-color: #F5F5F5;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
 }
 
+main{
+    padding-top: 10rem;
+}
+
 section{
-    width: 90vw;
+    max-width: 37.5rem;
+    height: 45rem;
+    margin-top: 3rem;
+    padding: 3rem;
+    border-radius: 1rem;
     display: grid;
     
 }
 
+img{
+    border-radius: 10rem;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+p{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.Daniel{
+    background-color: var(--Purple500);
+    color: var(--White);
+}
+
+.Jonathan{
+    background-color: var(--Grey500);
+    color: var(--White);
+}
+
+.Jeanette{
+    background-color: var(--White);
+    color: var(--Grey500);
+}
+
+.Patrick{
+    background-color: var(--Darkblue);
+    color: var(--White);
+}
+
+.Kira{
+    background-color: var(--White);
+    color: var(--Grey500);
+}
