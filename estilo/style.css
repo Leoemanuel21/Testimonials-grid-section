@@ -41,13 +41,45 @@ main{
 }
 
 section{
-    height: 45rem;
     margin: 3rem;
     padding: 3rem;
     border-radius: 1rem;
     display: grid;
+}
 
+.Daniel{
+    background-color: var(--Purple500);
+    color: var(--White);
+    height: 45rem;
     grid-template: .3fr .3fr 3fr 3fr / .6fr 2fr;
+}
+
+.Jonathan{
+    background-color: var(--Grey500);
+    color: var(--White);
+    height: 25rem;
+    grid-template: .6fr .6fr 3fr 3fr / .6fr 2fr;
+}
+
+.Jeanette{
+    background-color: var(--White);
+    color: var(--Grey500);
+    height: 20rem;
+    grid-template: .8fr .8fr 3fr 3fr / .6fr 2fr;
+}
+
+.Patrick{
+    background-color: var(--Darkblue);
+    color: var(--White);
+    height: 40rem;
+    grid-template: .4fr .4fr 3fr 3fr / .6fr 2fr;
+}
+
+.Kira{
+    background-color: var(--White);
+    color: var(--Grey500);
+    height: 45rem;
+    grid-template: .2fr .2fr 1fr 3fr / .6fr 2fr;
 }
 
 img{
@@ -76,31 +108,6 @@ p{
     font-weight: 500;
     padding-top: 1rem;
     grid-area: 4 / 1 / 5 / 3;
-}
-
-.Daniel{
-    background-color: var(--Purple500);
-    color: var(--White);
-}
-
-.Jonathan{
-    background-color: var(--Grey500);
-    color: var(--White);
-}
-
-.Jeanette{
-    background-color: var(--White);
-    color: var(--Grey500);
-}
-
-.Patrick{
-    background-color: var(--Darkblue);
-    color: var(--White);
-}
-
-.Kira{
-    background-color: var(--White);
-    color: var(--Grey500);
 }
 
 footer{
