@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1440px){
+    main{
+        min-width: 80vw;
+        display: grid;
+        grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+    }
+
+    .Daniel{
+        grid-area: 1/1/2/3;
+        height: 20rem;
+    }
+
+    .Jonathan{
+        grid-area: 1/3/2/4;
+        height: 20rem;
+    }
+
+    .Jeanette{
+        grid-area: 2/1/3/2;
+        height: 20rem;
+    }
+
+    .Patrick{
+        grid-area: 2/2/3/4;
+        height: 20rem;
+    }
+
+    .Kira{
+        grid-area: 1/4/3/5;
+        height: 52rem;
+    }
+
+}
